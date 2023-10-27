@@ -93,7 +93,10 @@
 html, 
 body, 
 .page-section {
-    height: calc(100% - 2rem);
+    height: 100%;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
 }
 
 body {
