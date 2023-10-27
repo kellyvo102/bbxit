@@ -90,7 +90,8 @@
     scroll-behavior: smooth;
   }
 }
-.page-section {
+.page-section, 
+.masthead {
     min-height: 100vh;
 }
 
@@ -11034,6 +11035,9 @@ header.masthead {
   background-position: top center;
   background-size: cover;
   position: relative;
+      display: flex;
+    align-content: center;
+    flex-wrap: wrap;
 }
 .white-overlay {
     position: relative;
